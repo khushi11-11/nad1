@@ -1,0 +1,95 @@
+*{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 0%;
+    padding: 0%;
+
+}
+#navbar{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 67, 3);;
+}
+.image{
+    display:inline-flexbox;
+    background-color: rgb(7, 67, 3);
+    color: white;
+
+}
+.text{
+    font-size: 55px;
+    margin-left: 50px;
+    font-style: italic;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(7, 67, 3);;
+}
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+    background-color: rgb(7, 67, 3);;
+}
+.list ul {
+    background-color: rgb(7, 67, 3);;
+}
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    background-color: rgb(7, 67, 3);;
+}
+
+
+/* Assignment */
+#assignment{
+    width: 80vh;
+    height: 80vh;
+    position: relative;
+}
+.text1{
+    font-size: 72px;
+    text-align: center;
+    margin-left: 100%;
+    font-style:oblique;
+    font-weight: 600;
+}
+.text2{
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 24px;
+    margin-left: 80%;
+    text-align: center;
+
+}
+#buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70%;
+    
+}
+#buttons a {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(7, 67, 3);
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+
+    color: white;
+    
+}
+
+iframe{
+    width: 80vw;
+    height: 80vh;
+    padding: 50px;
+    margin-left: 12%;
+   margin-top: 10%;
+}
